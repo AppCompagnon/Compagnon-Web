@@ -1,0 +1,58 @@
+/* Styles modernes et simples pour l'application Compagnon Étudiant */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f0f4ff 0%, #e0e7ff 100%);
+  margin: 0;
+  min-height: 100vh;
+}
+nav {
+  background: #3b82f6;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 2px 8px #0001;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #ffe066;
+}
+main, .page {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px #0002;
+  padding: 2rem;
+}
+h1, h2 {
+  color: #3b82f6;
+  text-align: center;
+}
+ul {
+  padding-left: 1.2rem;
+}
+li {
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+}
+@media (max-width: 700px) {
+  main, .page {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  nav ul {
+    gap: 1rem;
+  }
+}
