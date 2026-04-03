@@ -19,11 +19,11 @@ function Connexion({ onLogin }) {
 
   return (
     <div className="page">
-      <h2>Se connecter à son ENT</h2>
+      <h2>Se connecter à EduConnect</h2>
       <form onSubmit={handleSubmit} style={{ maxWidth: 350, margin: '2rem auto', display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
         <input
           type="text"
-          placeholder="Pseudo"
+          placeholder="Nom d'utilisateur EduConnect"
           value={pseudo}
           onChange={e => setPseudo(e.target.value)}
           style={{ padding: '0.7rem', borderRadius: '0.7rem', border: '1px solid #bbb', fontSize: '1.1rem' }}

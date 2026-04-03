@@ -8,10 +8,10 @@ function Accueil({ isLoggedIn, onLogin }) {
         color: '#2563eb',
         fontSize: '2.5rem',
         marginBottom: '1.2rem',
-        letterSpacing: '1px',
+        letterSpacing: '0.5px',
         textShadow: '0 2px 8px #2563eb22'
       }}>
-        Bienvenue sur Compagnon
+        Compagnon (étudiant)
       </h1>
       <p style={{
         textAlign: 'center',
@@ -27,7 +27,7 @@ function Accueil({ isLoggedIn, onLogin }) {
         Gérez vos devoirs, consultez les cours annulés et accédez à vos ressources d'apprentissage.
       </p>
       <ul style={{
-        background: '#f8fafc',
+        background: '#ddddddb0',
         borderRadius: '1rem',
         boxShadow: '0 1px 6px #2563eb11',
         padding: '1.2rem',
@@ -35,7 +35,7 @@ function Accueil({ isLoggedIn, onLogin }) {
         maxWidth: '480px',
         fontSize: '1.08rem',
         color: '#333',
-        lineHeight: 1.7
+        lineHeight: 1.5
       }}>
         <p style={{ textAlign: 'center', margin: '0.3em 0' }}>Accès rapide à tous vos devoirs</p>
         <p style={{ textAlign: 'center', margin: '0.3em 0' }}>Visualisation des cours annulés en temps réel</p>
