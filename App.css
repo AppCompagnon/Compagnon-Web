@@ -1,3 +1,163 @@
+
+/* Styles pour l'emploi du temps (Cours.js) */
+.emploi-du-temps {
+  margin: 2rem auto;
+  max-width: 1100px;
+  background: #f6f8ff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px #0001;
+  padding: 2rem 1rem 2.5rem 1rem;
+}
+.emploi-du-temps h2 {
+  color: #3b82f6;
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.emploi-du-temps table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: none;
+}
+.emploi-du-temps th, .emploi-du-temps td {
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+  font-size: 1.08rem;
+}
+.emploi-du-temps th {
+  background: #e0e7ff;
+  color: #222;
+  font-size: 1.13rem;
+  font-weight: bold;
+  border-bottom: 2px solid #b6c3e6;
+}
+.emploi-du-temps .date {
+  color: #3b82f6;
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+.emploi-du-temps .creneau {
+  background: #dbeafe;
+  font-weight: bold;
+  color: #2563eb;
+  border-right: 2px solid #b6c3e6;
+}
+.cours-cell {
+  background: #f1f5fb;
+  border-radius: 0.7rem;
+  min-width: 120px;
+  max-width: 200px;
+  vertical-align: top;
+  box-shadow: 0 1px 4px #0001;
+  font-size: 1.05rem;
+  color: #222;
+  text-align: center;
+  font-family: inherit;
+}
+.cours-cell strong {
+  color: #1e293b;
+  font-size: 1.08rem;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+}
+
+.cours-vide {
+  background: #f6f8ff;
+}
+
+.emploi-du-temps {
+  margin: 2rem 2vw;
+  width: calc(100vw - 4vw);
+  max-width: 1800px;
+  background: #f6f8ff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px #0001;
+  padding: 1.2rem 1vw 1.5rem 1vw;
+}
+.emploi-du-temps table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: none;
+  table-layout: fixed;
+}
+.emploi-du-temps th, .emploi-du-temps td {
+  text-align: center;
+  padding: 0.35rem 0.1rem;
+  font-size: 0.98rem;
+  word-break: break-word;
+}
+.cours-cell {
+  background: #f8fafc;
+  border-radius: 0.5rem;
+  min-width: 60px;
+  max-width: 120px;
+  vertical-align: top;
+  box-shadow: 0 1px 2px #0001;
+  font-size: 0.98rem;
+  color: #222;
+  text-align: center;
+  font-family: inherit;
+  margin: 0 0.25rem;
+  border: 2px solid #fff;
+}
+
+/* Couleurs par matière */
+.cours-math {
+  background: #ffdddd;
+  color: #b91c1c;
+}
+.cours-anglais {
+  background: #d1fae5;
+  color: #166534;
+}
+.cours-histoire, .cours-svt {
+  background: #fef9c3;
+  color: #b45309;
+}
+.cours-francais {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+.cours-devoirs, .cours-vie, .cours-emi {
+  background: #fff;
+  color: #222;
+}
+.cours-sport {
+  background: #ede9fe;
+  color: #7c3aed;
+}
+.cours-physique {
+  background: #bbf7d0;
+  color: #065f46;
+}
+.cours-music {
+  background: #ff65ccd2;
+  color: #065f46;
+}
+.cours-arts {
+  background: #fce7f3;
+  color: #be185d;
+}
+.cours-permanence {
+  background: #b1c3ffcc;
+  color: #252525;
+}
+
+@media (max-width: 900px) {
+  .emploi-du-temps {
+    padding: 0.2rem 0.2rem 0.7rem 0.2rem;
+    margin: 0.5rem 0.5vw;
+    width: calc(100vw - 1vw);
+    max-width: 100vw;
+  }
+  .emploi-du-temps table, .emploi-du-temps th, .emploi-du-temps td {
+    font-size: 0.92rem;
+    padding: 0.15rem 0.05rem;
+  }
+}
 /* Styles modernes et simples pour l'application Compagnon Étudiant */
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
