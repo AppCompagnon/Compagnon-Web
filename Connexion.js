@@ -7,16 +7,6 @@ function Connexion({ onLogin }) {
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (pseudo === 'admin' && mdp === '123') {
-      onLogin();
-      navigate('/');
-    } else {
-      setMessage('Mot de passe incorrect. Veuillez réessayer.');
-    }
-  };
-
   return (
     <div className="page">
       <h2>Se connecter à EduConnect</h2>
